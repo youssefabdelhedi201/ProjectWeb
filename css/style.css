@@ -133,6 +133,9 @@ nav .navlinks li a{
 .btn-group{
     margin:45px 0;
 }
+h2{
+    color: white;
+}
 .btn-group .btn{
     border-color: #d5d5d5;
     color:#fff;
@@ -380,8 +383,59 @@ table tr:hover {
     background-color: #555; /* Highlight color for hovered rows */
 }
 
+.container {
+    padding: 20px;
+    background-color: #333;
+    color: #e5e5e5;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
 
+.question {
+    margin-bottom: 20px;
+}
 
+button {
+    background-color: #007ced;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005bb5;
+}
+#result {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #444;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    color: #e5e5e5;
+}
+
+#result p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+#result h3 {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    color: #007ced;
+}
+
+#result ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#result ul li {
+    margin-bottom: 5px;
+    font-size: 1rem;
+}
 .portfolio-section {
     margin-top: 20px;
 }

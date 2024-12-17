@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Page</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<div class="hero-header">
+    <div class="wrapper">
+        <header>
+            <div class="logo">
+                <i class="fa-solid fa-a"></i>
+                <div class="logo-text">Youssef Abdelhedi</div>
+            </div>
+            <nav>
+                <div class="togglebtn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <ul class="navlinks">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="Events.html">Events</a></li>
+                    <li><a href="Resume.html">Resume</a></li>
+                    <li><a href="Portfolio.html">Portfolio</a></li>
+                    <li><a href="Quizz.html">Quizz</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="container">
+            <h2>JavaScript Quiz</h2>
+            <form id="quizForm">
+                <div class="question">
+                    <p>1. What does HTML stand for?</p>
+                    <input type="radio" name="q1" value="a"> Hyper Text Markup Language<br>
+                    <input type="radio" name="q1" value="b"> Home Tool Markup Language<br>
+                    <input type="radio" name="q1" value="c"> Hyperlinks and Text Markup Language<br>
+                </div>
+                <div class="question">
+                    <p>2. What does CSS stand for?</p>
+                    <input type="radio" name="q2" value="a"> Creative Style Sheets<br>
+                    <input type="radio" name="q2" value="b"> Cascading Style Sheets<br>
+                    <input type="radio" name="q2" value="c"> Computer Style Sheets<br>
+                </div>
+                <div class="question">
+                    <p>3. What is the correct syntax for referring to an external script called "script.js"?</p>
+                    <input type="radio" name="q3" value="a"> &lt;script href="script.js"&gt;<br>
+                    <input type="radio" name="q3" value="b"> &lt;script name="script.js"&gt;<br>
+                    <input type="radio" name="q3" value="c"> &lt;script src="script.js"&gt;<br>
+                </div>
+                <div class="question">
+                    <p>4. How do you write "Hello World" in an alert box?</p>
+                    <input type="radio" name="q4" value="a"> msg("Hello World");<br>
+                    <input type="radio" name="q4" value="b"> alert("Hello World");<br>
+                    <input type="radio" name="q4" value="c"> alertBox("Hello World");<br>
+                </div>
+                <div class="question">
+                    <p>5. How do you create a function in JavaScript?</p>
+                    <input type="radio" name="q5" value="a"> function myFunction()<br>
+                    <input type="radio" name="q5" value="b"> function:myFunction()<br>
+                    <input type="radio" name="q5" value="c"> function = myFunction()<br>
+                </div>
+                <div class="question">
+                    <p>6. How do you call a function named "myFunction"?</p>
+                    <input type="radio" name="q6" value="a"> call myFunction()<br>
+                    <input type="radio" name="q6" value="b"> call function myFunction()<br>
+                    <input type="radio" name="q6" value="c"> myFunction()<br>
+                </div>
+                <div class="question">
+                    <p>7. How to write an IF statement in JavaScript?</p>
+                    <input type="radio" name="q7" value="a"> if i = 5 then<br>
+                    <input type="radio" name="q7" value="b"> if i == 5 then<br>
+                    <input type="radio" name="q7" value="c"> if (i == 5)<br>
+                </div>
+                <div class="question">
+                    <p>8. How to write an IF statement for executing some code if "i" is NOT equal to 5?</p>
+                    <input type="radio" name="q8" value="a"> if (i != 5)<br>
+                    <input type="radio" name="q8" value="b"> if i &lt;&gt; 5<br>
+                    <input type="radio" name="q8" value="c"> if (i &lt;&gt; 5)<br>
+                </div>
+                <div class="question">
+                    <p>9. How does a WHILE loop start?</p>
+                    <input type="radio" name="q9" value="a"> while (i &lt;= 10; i++)<br>
+                    <input type="radio" name="q9" value="b"> while (i &lt;= 10)<br>
+                    <input type="radio" name="q9" value="c"> while i &lt;= 10<br>
+                </div>
+                <div class="question">
+                    <p>10. How does a FOR loop start?</p>
+                    <input type="radio" name="q10" value="a"> for (i = 0; i &lt;= 5)<br>
+                    <input type="radio" name="q10" value="b"> for (i = 0; i &lt;= 5; i++)<br>
+                    <input type="radio" name="q10" value="c"> for i = 1 to 5<br>
+                </div>
+                <button type="button" onclick="calculateScore()">Submit</button>
+            </form>
+            <div id="result"></div>
+        </div>
+    </div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"></script>
+<script src="../js/script.js"></script>
+</body>
+<footer>
+    <p>&copy; 2024 Youssef Abdelhedi. All rights reserved.</p>
+</footer>
+</html>
