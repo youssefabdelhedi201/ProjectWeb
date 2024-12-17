@@ -17,13 +17,12 @@ var typed = new Typed(".input", {
 
 document.getElementById("downloadBtn").addEventListener("click", function() {
     const link = document.createElement("a");
-    link.href = "path/to/your/CV.pdf"; // Update this path to the correct location of your CV file
-    link.download = "CV.pdf";
+    link.href = "images/CV.pdf"; // Update this path to the correct location of your CV file
+    link.setAttribute("download", "CV.pdf");
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
 });
-
 document.addEventListener("DOMContentLoaded", function() {
     const sections = document.querySelectorAll(".resume-item");
     const navLinks = document.querySelectorAll(".resume nav ul li a");
